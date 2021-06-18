@@ -127,6 +127,7 @@ body {
 }
 
 .button:hover {
+  transition: opacity .4s;
   opacity: 0.9;
 }
 

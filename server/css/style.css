@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -130,12 +131,17 @@ body {
 }
 
 .footer {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 92.32%;
+  bottom: 0%;
+  background: #0B0D17;
   display: flex;
   margin-top: 250px;
   align-items: center;
-  height: 72px;
+  height: 120px;
   color: #D9DBE1;
-  background: #0B0D17;
 }
 
 .footer-container {
@@ -170,3 +176,39 @@ body {
 .h2 {
   margin-top: 20px;
 }
+@font-face {
+    font-family: 'Gilroy-Extrabold';
+    src: url('fonts/Gilroy-Extra-Bold/Gilroy-Extra-Bold'), url('Gilroy-Extrabold'),
+        url('fonts/Gilroy-Extra-Bold/Gilroy-Extra-Bold.woff2') format('woff2'),
+        url('fonts/Gilroy-Extra-Bold/Gilroy-Extra-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Extra-Bold/Gilroy-Extra-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('fonts/Gilroy-Heavy/Gilroy Heavy'), url('Gilroy-Heavy'),
+        url('fonts/Gilroy-Heavy/Gilroy-Heavy.woff2') format('woff2'),
+        url('fonts/Gilroy-Heavy/Gilroy-Heavy.woff') format('woff'),
+        url('fonts/Gilroy-Heavy/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('fonts/Gilroy-Bold/Gilroy Bold'), url('Gilroy-Bold'),
+        url('fonts/Gilroy-Bold/Gilroy-Bold.woff2') format('woff2'),
+        url('fonts/Gilroy-Bold/Gilroy-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Bold/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('fonts/Gilroy-Regular/Gilroy-Regular'), url('Gilroy-Regular'),
+        url('fonts/Gilroy-Regular/Gilroy-Regular.woff2') format('woff2'),
+        url('fonts/Gilroy-Regular/Gilroy-Regular.woff') format('woff'),
+        url('fonts/Gilroy-Regular/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

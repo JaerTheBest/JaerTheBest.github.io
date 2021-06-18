@@ -87,7 +87,7 @@ body {
 
 .nav-link:hover {
   color: gray;
-  transition: .3s;
+  transition: color .3s;
 }
 
 .nav-link:last-child {

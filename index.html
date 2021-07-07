@@ -7,15 +7,6 @@
     <title>Jaer Network</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
-    <script>
-function updateCounter() {
-    fetch('https://api.countapi.xyz/hit/jaerthebest.github.io')
-        .then(res => res.json())
-        .then(data => counterElement.innerHTML = data.value)
-}
-updateCounter()
-counterElement = document.getElementsByClassName('count')[0];
-</script>
 </head>
 <body>
 	<header class="header">
@@ -50,12 +41,25 @@ counterElement = document.getElementsByClassName('count')[0];
 
 
 				<a class="fun" href="start.html" target="_blank">Начать</a><br><br>
-				    <div class="counter">
+<p>This page was viewed</p>
+<h1 id="count">0</h1>
+<p>times</p>
 
-        				<div class="head">Total Website Visit</div>
-        				<div class="count">00</div>
 
-    				    </div>
+<script>
+	const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/hit/jaer/visits')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+</script>
 			</div>
 			</div>
 	</main>

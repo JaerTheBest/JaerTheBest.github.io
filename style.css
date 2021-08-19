@@ -1,0 +1,42 @@
+/* connecting fonts */
+@font-face {
+    font-family: 'Gilroy-Extrabold';
+    src: url('fonts/Gilroy-Extra-Bold/Gilroy-Extra-Bold'), url('Gilroy-Extrabold'),
+        url('fonts/Gilroy-Extra-Bold/Gilroy-Extra-Bold.woff2') format('woff2'),
+        url('fonts/Gilroy-Extra-Bold/Gilroy-Extra-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Extra-Bold/Gilroy-Extra-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('fonts/Gilroy-Heavy/Gilroy Heavy'), url('Gilroy-Heavy'),
+        url('fonts/Gilroy-Heavy/Gilroy-Heavy.woff2') format('woff2'),
+        url('fonts/Gilroy-Heavy/Gilroy-Heavy.woff') format('woff'),
+        url('fonts/Gilroy-Heavy/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('fonts/Gilroy-Bold/Gilroy Bold'), url('Gilroy-Bold'),
+        url('fonts/Gilroy-Bold/Gilroy-Bold.woff2') format('woff2'),
+        url('fonts/Gilroy-Bold/Gilroy-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Bold/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('fonts/Gilroy-Regular/Gilroy-Regular'), url('Gilroy-Regular'),
+        url('fonts/Gilroy-Regular/Gilroy-Regular.woff2') format('woff2'),
+        url('fonts/Gilroy-Regular/Gilroy-Regular.woff') format('woff'),
+        url('fonts/Gilroy-Regular/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* main app css */
+html, body {
+    height: 100%;
+}

@@ -1,8 +1,14 @@
-# Discord Login page
-this is Discord Login page clone, 100% same
+# Добро пожаловать!
+Офф. сайт jaer.cf
 
-# Usage
-just clone this repository to your local pc/laptop
+# Кто это?
+Я не считаю себя разработчиком! Иногда люблю пописать код
 
-# WARNING
-dont use this for ilegal purpose
+# Внимание!
+Можете пожалуйста спросить разрешение перед использованием контента!
+
+# Лицензия
+Лицензия создана 09.02.2023 20:55
+author: jaer
+time: 09-02-23 20-55-56
+website: www.jaer.cf

@@ -19,13 +19,11 @@ body {
 	margin: 20px 100px 0px 100px;
 	border-radius: 30px;
 }
+
 .cards {
-	height: 400px;
-	width: 300px;
-	background: #fff;
-	margin: 20px 0 0 100px;
-	border-radius: 30px;
 	display: inline-block;
+	height: 200px;
+	background: #fff;
 }
 
 @keyframes animate {

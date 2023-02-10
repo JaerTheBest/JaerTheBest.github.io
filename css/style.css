@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 body, html{
-	font-family: 'Poppins';
+	font-family: 'Montserrat';
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 .container {
 	height: 500px;
 	background: white;
-	margin: 100px;
+	margin: 0px;
 	border-radius: 50px;
 }
 
@@ -73,13 +74,19 @@ transform: scale(1.2); /* эффект трансформации для дру�
 cursor: pointer;
 }
 
+.katalog {
+	padding-top: 13px;
+}
+
 @media all and (max-width: 997px){
 	.container {
-		height: 10%;
+		height: 500px;
+		width: 300px;
 		border-radius: 10px;
 	}
 	.menu {
 		font-size: 80%;
+		color: #fff;
 	}
 	body {
 		background: #292929;
@@ -96,6 +103,9 @@ cursor: pointer;
 	}
 	.container img{
 		height: 180px;
+		margin-top: 15px;
 		width: 180px;
+		border: 1px solid black;
+		border-radius: 15px;
 	}
 }

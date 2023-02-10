@@ -5,7 +5,7 @@ body, html{
 }
 
 body {
-		z-index: 1;
+	z-index: 1;
 	background: linear-gradient(-45deg, #654ea3, #eaafc8);
 	background-size: 400% 400%;
 	width: 100%;
@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-	widows: 20px;
 	height: 500px;
 	background: white;
 	margin: 100px;
@@ -39,6 +38,7 @@ body {
 
 a.menu {
 	text-decoration: none;
+	color: black;
 	margin-right: 5px;
 	margin-left: 5px;
 	padding-top: 5px;
@@ -53,16 +53,10 @@ a.menu:not(:hover){
   transition: .5s;
 }
 
-.footer {
-
-}
-.artego-footer {
-	margin-top: 10px;
-	position:fixed;
-}
 .logo {
 	padding-top: 20px;
 }
+
 .container img{
 — moz-transition: all 1s ease;
 — webkit-transition: all 1s ease;
@@ -77,4 +71,31 @@ transition: all 1s ease;
 — ms-transform: scale(1.2); /* эффект трансформации для IE 9.0 */
 transform: scale(1.2); /* эффект трансформации для других браузеров */
 cursor: pointer;
+}
+
+@media all and (max-width: 997px){
+	.container {
+		height: 10%;
+		border-radius: 10px;
+	}
+	.menu {
+		font-size: 80%;
+	}
+	body {
+		background: #292929;
+		background-size: 100%;
+		width: 100%;
+	}
+	.container img:hover{
+		— moz-transform: scale(1.1); /* эффект трансформации для Firefox до версии 16.0 */
+		— webkit-transform: scale(1.1); /* эффект трансформации для Chrome до версии 26.0, Safari, Android и iOS */
+		— o-transform: scale(1.1); /* эффект трансформации для Opera до версии 12.10 */
+		— ms-transform: scale(1.1); /* эффект трансформации для IE 9.0 */
+		transform: scale(1.1); /* эффект трансформации для других браузеров */
+		cursor: pointer;
+	}
+	.container img{
+		height: 180px;
+		width: 180px;
+	}
 }

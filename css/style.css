@@ -18,6 +18,7 @@ body {
 	background: blue;
 	margin: 100px;
 }
+
 @keyframes animate {
 	0% {
 		background-position: 0% 50%;
@@ -29,22 +30,36 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
 .footer-text-left {
   font-size:25px;
-  padding-left:40px;
-  float:left;
-  word-spacing:20px;
+  text-align: center;
+}
+
+a.menu {
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 5px;
 }
 
 a.menu:hover {
-  background-color:yellow;
-  font-size:20px;
+  font-size:22px;
+  transition: .5s;
 }
+
+a.menu:not(:hover){
+  transition: .5s;
+}
+
 .footer {
   position:fixed;
   bottom:0;
   left:0;
   width:100%;
-  height: 90px;
+  height: 80px;
   background-color: #D0DAEE;
+}
+.logo {
+	padding-top: 20px;
 }

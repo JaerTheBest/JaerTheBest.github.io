@@ -1,0 +1,25 @@
+@import url('lib/jquery.jgrowl.min.css');
+.af-message-success { background-color: green !important; }
+.af-message-error { background-color: brown !important; }
+.af-message-info { background-color: black !important; }
+.ajax_form.af_example {
+    width: 100%;
+}
+.ajax_form.af_example .controls input,
+.ajax_form.af_example .controls textarea {
+    width: 100%;
+}
+.ajax_form .error {
+    color: brown;
+}
+@media screen and (min-width: 320px) {
+    .ajax_form.af_example .controls button[type="submit"] {
+        float: right;
+    }
+}
+@media screen and (max-width: 320px) {
+    .ajax_form.af_example .controls button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}

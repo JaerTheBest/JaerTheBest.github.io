@@ -1,0 +1,36 @@
+/**
+ * @package   mod_flyout - Flyout Tabs
+ * @version   1.0.8 April 2012
+ * @author    GraphicAholic - http://www.graphicaholic.com
+ * @copyright Copyright (C) 2010 - 2011 GraphicAholic All rights reserved.
+ */
+
+/* Core */
+ul#navigation {
+    list-style-type: none;
+    list-style: none;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    z-index:9999;
+}
+ul#navigation li {
+    list-style-type: none;
+    list-style: none;
+}
+ul#navigation li a {
+    list-style-type: none;
+    list-style: none;
+    display: block;
+    background-repeat:no-repeat;
+    background-position:left;
+    list-style: none;
+    -moz-border-radius:0px 10px 10px 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+}
+ul#navigation li a:hover{
+}

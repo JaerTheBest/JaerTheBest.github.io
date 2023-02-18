@@ -1,0 +1,21 @@
+
+.msoptionsprice-spinner {
+	display: none;
+	width: 32px;
+	height: 32px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -32px;
+	margin-top: -32px;
+	background: url(../../img/spinner.gif);
+	z-index: 9999;
+}
+
+#msCart input.error {
+	border: 1px solid brown !important;
+}
+
+#msCart .error {
+	color: brown !important;
+}

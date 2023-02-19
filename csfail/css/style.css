@@ -1,0 +1,24 @@
+
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html, body {
+    font-family: 'DIN Pro';
+    font-weight: 500;
+    font-style: normal;
+    background-color: black;
+}
+
+.main {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.img {
+	margin-top: 50px;
+}

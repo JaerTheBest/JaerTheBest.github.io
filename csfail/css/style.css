@@ -36,6 +36,8 @@ html, body {
     text-transform: none;
     cursor: pointer;
     margin-top: 130px;
+    font-family: 'DIN Pro';
+    font-weight: 500;
 }
 .button_login:hover {
 	transition: .4s;
@@ -71,4 +73,11 @@ button {
     user-select: none;
     cursor: pointer;
     transition: color .2s ease-out 0s,background-color .2s ease-out 0s,border-color .2s ease-out 0s,box-shadow .2s ease-out 0s;
+}
+.attention__title {
+	color: rgb(193, 92, 117);
+}
+.attention__img {
+    width: 6.8rem;
+    height: 6.8rem;
 }

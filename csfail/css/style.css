@@ -13,7 +13,7 @@ html, body {
     background-color: black;
 }
 
-.main {
+.logo {
   display:flex;
   align-items:center;
   justify-content: center;
@@ -21,4 +21,54 @@ html, body {
 
 .img {
 	margin-top: 50px;
+}
+
+.button_login {
+    height: 3.4rem;
+    width: 13rem;
+    padding: 0 1.6rem;
+    background-color: #62d5b2;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    color: #20274b;
+    text-transform: none;
+    cursor: pointer;
+    margin-top: 130px;
+}
+.button_login:hover {
+	transition: .4s;
+    background-color: rgb(25, 113, 93);
+    color: rgb(150, 176, 197);
+}
+.button_login:not(:hover) {
+	transition: .4s;
+}
+button {
+    position: relative;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    height: 5rem;
+    padding: 0 2rem;
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    outline: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    transition: color .2s ease-out 0s,background-color .2s ease-out 0s,border-color .2s ease-out 0s,box-shadow .2s ease-out 0s;
 }

@@ -80,4 +80,5 @@ button {
 .attention__img {
     width: 6.8rem;
     height: 6.8rem;
+    border-color: initial;
 }

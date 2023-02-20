@@ -97,5 +97,5 @@ button {
     letter-spacing: .5px;
 }
 .attention-wrap {
-    display: inline;
+    display: inherit;
 }

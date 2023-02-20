@@ -10,7 +10,7 @@ html, body {
     font-family: 'DIN Pro';
     font-weight: 500;
     font-style: normal;
-    background-color: rgb(20, 23, 50);
+    background-color: #191d3e;
 }
 
 .logo {
@@ -78,7 +78,17 @@ button {
 	color: rgb(193, 92, 117);
 }
 .attention__img {
-    width: 6.8rem;
-    height: 6.8rem;
+    width: 68px;
+    height: 68px;
     border-color: initial;
+}
+
+.textatt {
+    color: #ba4b67;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    width: 29%;
+    line-height: 1.8rem;
+    letter-spacing: .5px;
 }

@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: black;
     display: flex;
@@ -13,16 +14,24 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+
 .iam{
   color: white;
     font-size: 55px;
     padding: 15px;
     font-family: sans-serif;
 }
+
 .text{
   color: white;
     border-right: 2px solid red;
     font-size: 55px;
     font-family: sans-serif;
     color: rgb(255, 30, 0);
+}
+
+@media screen and (max-width:350px) {
+    .object {
+        display: none;
+    }
 }

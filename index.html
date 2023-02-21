@@ -16,7 +16,7 @@
         
     <h1 class="h1txt">This website is now on reconstruction!</h1>
 
-    <footer>Jaer.cf &copy; 2023</footer>
+    <footer>Jaer.cf &copy; <span id="year"></span></footer>
 
 <script>
    var typing=new Typed(".text", {
@@ -25,6 +25,8 @@
        backSpeed: 40,
        loop: true,
    });
+   
+   document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
 
 </body>

@@ -8,10 +8,12 @@
 }
 
 body{
-    background-color: black;
+    background-color: #292929;
     display: flex;
+    font-family: 'Montserrat';
     justify-content: center;
     align-items: center;
+    text-align: center;
     min-height: 100vh;
 }
 
@@ -19,19 +21,47 @@ body{
   color: white;
     font-size: 55px;
     padding: 15px;
-    font-family: sans-serif;
 }
 
 .text{
   color: white;
     border-right: 2px solid red;
     font-size: 55px;
-    font-family: sans-serif;
     color: rgb(255, 30, 0);
 }
 
-@media screen and (max-width:350px) {
-    .object {
+.h1txt {
+  color: white;
+}
+
+footer {
+  margin-top: 590px;
+  position: absolute;
+}
+
+@media screen and (max-width:1350px) {
+    .text, .iam {
         display: none;
+    }
+    .h1txt {
+      display: table;
+    }
+    footer {
+      margin-top: 750px;
+    }
+}
+
+@media screen and (min-width:1351px) {
+    .text, .iam {
+        display: table;
+    }
+    .h1txt {
+      display: none;
+    }
+}
+
+@media screen and (min-width:1350px) {
+    footer {
+      margin-top: 750px;
     }
 }

@@ -1,0 +1,133 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+  body {
+    background-color: #292929;
+    font-family:'Montserrat';
+  }
+
+.spanx {
+    font-size:9.0pt;
+    
+}
+
+.parx {
+    margin:0cm;
+    margin-bottom:.0001pt;
+    line-height:115%;
+}
+
+.tdx {
+    padding-right: 6pt;
+    padding-left: 6pt;
+    padding-bottom: 6pt;
+    padding-top: 6pt;
+}
+
+.tdx1 {
+    padding-right: 6pt;
+    padding-left: 6pt;
+    background: #567280;
+    padding-bottom: 6pt; 
+    width: 317.5pt; 
+    padding-top: 6pt;
+}
+
+.table {
+    background-color: #bdc7c9;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.spanx1 {
+    font-size: 10pt; color: #fff;
+    font-family: 'Montserrat';
+    mso-ansi-language: en-gb
+}
+
+/* CSS */
+.button {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 10px 30px;
+  }
+}
+
+.form__group {
+     position: relative;
+     padding: 15px 0 0;
+     margin-top: 10px;
+     width: 50%;
+}
+ .form__field {
+     font-family: inherit;
+     width: 100%;
+     border: 0;
+     border-bottom: 2px solid #9b9b9b;
+     outline: 0;
+     font-size: 1.3rem;
+     color: #fff;
+     padding: 7px 0;
+     background: transparent;
+     transition: border-color 0.2s;
+}
+ .form__field::placeholder {
+     color: transparent;
+}
+ .form__field:placeholder-shown ~ .form__label {
+     font-size: 1.3rem;
+     cursor: text;
+     top: 20px;
+}
+ .form__label {
+     position: absolute;
+     top: 0;
+     display: block;
+     transition: 0.2s;
+     font-size: 1rem;
+     color: #9b9b9b;
+}
+ .form__field:focus {
+     padding-bottom: 6px;
+     font-weight: 700;
+     border-width: 3px;
+     border-image: linear-gradient(to right, #11998e, #38ef7d);
+     border-image-slice: 1;
+}
+ .form__field:focus ~ .form__label {
+     position: absolute;
+     top: 0;
+     display: block;
+     transition: 0.2s;
+     font-size: 1rem;
+     color: #11998e;
+     font-weight: 700;
+}
+/* reset input */
+ .form__field:required, .form__field:invalid {
+     box-shadow: none;
+}

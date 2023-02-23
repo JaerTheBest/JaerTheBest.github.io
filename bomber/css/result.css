@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+* {
+	font-family: 'Montserrat';
+}
+
+body {
+	background-color: #292929;
+}
+
+a {
+	text-decoration: none;
+	color: lightgreen;
+}
+
+.trx {
+	color: white;
+	font-family: 'Montserrat';
+}
+
+table {
+	border-radius: 10px;
+}

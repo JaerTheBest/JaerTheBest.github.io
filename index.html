@@ -2,32 +2,96 @@
 <html lang="en">
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milan Gorislavets</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+	<script src="https://jaer.cf/cdnjs/main/script.js"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/625fdbde90.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/preloader.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Milan Gorislavets</title>
+
+	<link rel="shortcut icon" type="image/jpg" href="icon.png"/>
 
 </head>
 <body>
 
-    <div class="iam">Website is</div>
-    <div class="text"></div>
-        
-    <h1 class="h1txt">This website is now on reconstruction!</h1>
+	<div class='loader' id='loader'>
+  		<div class='circle'></div>
+  		<div class='circle'></div>
+  		<div class='circle'></div>
+  		<div class='circle'></div>
+  		<div class='circle'></div>
+	</div>
 
-    <footer>Jaer.cf &copy; <span id="year"></span></footer>
 
-<script>
-   var typing=new Typed(".text", {
-       strings: ["", "under reconstruction", "on rebuilding", "in proccess", "will ready soon", "not ready!"],
-       typeSpeed: 100,
-       backSpeed: 40,
-       loop: true,
-   });
-   
-   document.getElementById("year").innerHTML = new Date().getFullYear();
-</script>
+	<div class="navigation-wrap bg-light start-header start-style">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+					
+						<a class="navbar-brand" href="https://front.codes/" target="_blank"><img src="https://assets.codepen.io/1462889/fcy.png" alt=""></a>	
+						
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+										<a class="dropdown-item" href="#">Another action</a>
+									</div>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Portfolio</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Agency</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+										<a class="dropdown-item" href="#">Another action</a>
+									</div>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Journal</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+						
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+		var loader = document.getElementById('loader')
+    		window.addEventListener("load", function() {
+    				loader.style.display = "none";
+    			})
+	</script>
 
 </body>
 </html>

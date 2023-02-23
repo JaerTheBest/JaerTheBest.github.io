@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
 /* ==================================================== Recreating the email field from https://webflow.com/cms. Just an experiment - not as cross-browser friendly as the original. Changed: - animated gradient bar to :after element - flexbox for layout ==================================================== */
  html {
 	 box-sizing: border-box;
@@ -34,7 +37,7 @@
  body {
 	 -webkit-font-smoothing: antialiased;
 	 -moz-osx-font-smoothing: grayscale;
-	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 font-family: 'Montserrat';
 	 background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 51%, #1d1e26);
 }
  h1.demo {
@@ -125,7 +128,7 @@
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Montserrat';
   font-size: 16px;
   font-weight: 400;
   outline: none;

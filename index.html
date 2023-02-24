@@ -23,6 +23,10 @@
 </head>
 <body>
 
+<div class="container_loader" id="container_loader">
+
+	<h6 class="loading_text">Загрузка страницы...</h6>
+
 	<div class='loader' id='loader'>
   		<div class='circle'></div>
   		<div class='circle'></div>
@@ -30,6 +34,7 @@
   		<div class='circle'></div>
   		<div class='circle'></div>
 	</div>
+</div>
 
 
 	<div class="navigation-wrap bg-light start-header start-style">
@@ -47,7 +52,7 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav ml-auto py-4 py-md-0">
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Поддержать</a>
 									<div class="dropdown-menu">
 										<a class="dropdown-item" href="#">Проекты</a>
 										<a class="dropdown-item" href="#">Биография</a>
@@ -86,15 +91,39 @@
 		</div>
 	</div>
 
+
+<br><br><br><br>
 	<div class="container">
+		<center><img src="https://media.tenor.com/cIgomqzBJl4AAAAd/k-on-keion.gif" alt="Meme" class="meme"><center><br>
+		<p><span>Веб разработка может стать легче!</span></p>
+
+		<h6>Находите хакерские инструменты и полезные решения!</h6><br>
+
+		<a class="button" href="projects.html">Проекты</a>
+		<br><br>
+
+		<h6>Остальное можно найти выше!</h6>
+
 		
 	</div>
 
+
+	<footer>
+		
+		<center><h6>JaerTheBest &copy; <span id="thisyear">A</span></h6></center>
+
+	</footer>
+
+
 	<script>
-		var loader = document.getElementById('loader')
+		var loader = document.getElementById('container_loader')
     		window.addEventListener("load", function() {
-    				loader.style.display = "none";
+    				container_loader.style.display = "none";
     			})
+
+    	function year() {
+    		document.getElementById("year").innerHTML = new Date().getFullYear();
+    	}
 	</script>
 
 <script src="./script.js"></script>

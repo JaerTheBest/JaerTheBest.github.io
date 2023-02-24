@@ -7,6 +7,38 @@
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+ input {
+	 border-style: none;
+	 background: transparent;
+	 outline: none;
+	 text-align: center;
+}
+ button {
+	 padding: 0;
+	 background: none;
+	 border: none;
+	 outline: none;
+}
+
+ *, *:before, *:after {
+	 box-sizing: inherit;
+}
+ ul, li {
+	 margin: 0;
+	 padding: 0;
+}
+ li {
+	 list-style: none;
+}
+
+footer {
+	margin-top: 450px;
+}
+
 /* #Primary
 ================================================== */
 
@@ -174,6 +206,7 @@ body{
   font-weight: 400;
   outline: none;
   outline: 0;
+  display: inline-block;
   padding: 10px 25px;
   text-align: center;
   transform: translateY(0);
@@ -181,12 +214,21 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  text-decoration: none;
 }
 
-.button:hover {
+.container a:hover {
+	transition: .4s;
   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
   transform: translateY(-2px);
+
+}
+
+a span {
+	color: #fff;
+}
+
+.container a:not(:hover) {
+	transition: .4s;
 }
 
 @media (min-width: 768px) {
@@ -197,4 +239,7 @@ body{
 .loading_text {
 	margin-top: 120px;
 	color: white;
+}
+.container a {
+ text-decoration: none;
 }

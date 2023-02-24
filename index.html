@@ -99,7 +99,7 @@
 
 		<h6>Находите хакерские инструменты и полезные решения!</h6><br>
 
-		<a class="button" href="projects.html">Проекты</a>
+		<a class="button" href="projects.html"><span>Проекты</span></a>
 		<br><br>
 
 		<h6>Остальное можно найти выше!</h6>
@@ -110,7 +110,7 @@
 
 	<footer>
 		
-		<center><h6>JaerTheBest &copy; <span id="thisyear">A</span></h6></center>
+		<center><h6>JaerTheBest &copy; <span id="thisyear" onclick="year()">Push Me!</span></h6></center>
 
 	</footer>
 
@@ -122,7 +122,7 @@
     			})
 
     	function year() {
-    		document.getElementById("year").innerHTML = new Date().getFullYear();
+    		document.getElementById("thisyear").innerHTML = new Date().getFullYear();
     	}
 	</script>
 

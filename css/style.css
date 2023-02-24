@@ -258,3 +258,7 @@ body{
 .container_loader {
 	z-index: 1001;
 }
+
+.main {
+	text-align: center;
+}

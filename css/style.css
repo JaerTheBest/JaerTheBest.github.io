@@ -7,18 +7,17 @@
 ================================================== */
 
 body{
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
-	color: #212112;
+	background-color: #1f2029;
 	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
 	background-position: center;
 	background-repeat: repeat;
 	background-size: 7%;
-	background-color: #fff;
 	overflow-x: hidden;
-    transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 ::selection {
 	color: #fff;
@@ -155,7 +154,7 @@ body{
 ================================================== */
 
 .bg-light {
-	background-color: #fff !important;
+	background-color: #1f2029 !important;
     transition: all 200ms linear;
 }
 .section {
@@ -182,7 +181,7 @@ h1{
 	font-size: 48px;
 	line-height: 1.2;
 	font-weight: 700;
-	color: #212112;
+	color: #fff;
 	text-align: center;
 }
 p{
@@ -318,11 +317,11 @@ body.hero-anime h1 span:nth-child(15){
 }
 body.hero-anime h1 span:nth-child(17){
 	opacity: 0;
-	transform: translateY(50px);
+	transform: translateY(40px);
 }
 body.hero-anime h1 span:nth-child(16){
 	opacity: 0;
-	transform: translateY(50px);
+	transform: translateY(30px);
 }
 h1 span:nth-child(11){
     transition-delay: 1300ms;
@@ -343,7 +342,7 @@ h1 span:nth-child(16){
     transition-delay: 1450ms;
 }
 h1 span:nth-child(17){
-    transition-delay: 1450ms;
+    transition-delay: 1250ms;
 }
 #switch,
 #circle {
@@ -378,7 +377,7 @@ body.hero-anime #switch{
 	width: 26px;
 	height: 26px;
 	border-radius: 50%;
-	background: #000;
+	background: #fff;
 }
 .switched {
 	border-color: #000 !important;
@@ -387,7 +386,7 @@ body.hero-anime #switch{
 .switched #circle {
 	left: 43px;
 	box-shadow: 0 4px 4px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
-	background: #fff;
+	background: #000;
 }
 .nav-item .dropdown-menu {
     transform: translate3d(0, 10px, 0);
@@ -434,24 +433,24 @@ body.hero-anime #switch{
 }
 
 body.dark{
-	color: #fff;
-	background-color: #1f2029;
+	color: #000;
+	background-color: #fff;
 }
 body.dark .navbar-brand span{
-  color: white;
+  color: black;
 }
 body.dark h1{
-	color: #fff;
+	color: #000;
 }
 body.dark h1 span{
-    transition-delay: 0ms !important;
+  transition-delay: 0ms !important;
 }
 body.dark p{
-	color: #fff;
-    transition-delay: 0ms !important;
+	color: #000;
+  transition-delay: 0ms !important;
 }
 body.dark .bg-light {
-	background-color: #14151a !important;
+	background-color: #fff !important;
 }
 body.dark .start-header {
 	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
@@ -460,18 +459,18 @@ body.dark .start-header.scroll-on {
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
 body.dark .nav-link{
-	color: #fff !important;
+	color: #000 !important;
 }
 body.dark .nav-item.active .nav-link{
 	color: #999 !important;
 }
 body.dark .dropdown-menu {
 	color: #fff;
-	background-color: #1f2029;
+	background-color: #fff;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 body.dark .dropdown-item {
-	color: #fff;
+	color: #000;
 }
 body.dark .navbar-light .navbar-toggler-icon {
 	border-bottom: 1px solid #fff;

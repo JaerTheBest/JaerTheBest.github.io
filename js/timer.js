@@ -36,3 +36,17 @@ document.addEventListener('DOMContentLoaded', function() {
   // вызываем функцию countdownTimer каждую секунду
   timerId = setInterval(countdownTimer, 1000);
 });
+
+function newFunc(argument) {
+  // body...
+}
+
+function function_name(argument) {
+  function(
+
+for (var i = Things.length - 1; i >= 0; i--) {
+  Things[i]
+}
+
+    ) {}
+}

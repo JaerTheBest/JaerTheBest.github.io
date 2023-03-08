@@ -174,9 +174,14 @@ body{
 	top: 50%;
 	left: 0;
 	width: 100%;
-  margin-top: 40px;
+  	margin-top: 40px;
 	transform: translateY(-50%);
 	z-index: 20;
+}
+@media (max-width: 767px) {
+	.absolute-center {
+		font-size: 120px;
+	}
 }
 h1{
 	font-size: 48px;
